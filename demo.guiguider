@@ -1,0 +1,1211 @@
+{
+	"projectName": "demo",
+	"lvglVersion": "v8",
+	"Optimizations": "Balance",
+	"boardPlatformSettings": {
+		"resolution": {
+			"width": "1280",
+			"height": "800"
+		},
+		"name": "Simulator",
+		"panel_name": "lcd",
+		"color_depth": 16,
+		"display_part_number": [
+			""
+		],
+		"mcuxpresso_config": {
+			"CMAKE_BUILD_TYPE": "null"
+		},
+		"OS": "Windows/Linux",
+		"mcu": "Simulator",
+		"board": {
+			"id": 67,
+			"name": "Simulator",
+			"version": "v1.0.0",
+			"description": "Simulator",
+			"lvgl_version_major": 8,
+			"lvgl_version_minor": 2,
+			"lvgl_version_micro": 0,
+			"author": "NXP",
+			"file": "",
+			"checksum": "",
+			"images": [
+				"D:\\NXP\\GUI-Guider-1.4.1-GA\\environment\\template\\board\\v8\\Simulator\\images\\simulator.png"
+			],
+			"type": "Simulator",
+			"originType": "builtIn",
+			"OS": "Windows/Linux",
+			"mcu": "Simulator",
+			"BuildStatus": {
+				"enable_pxp": false,
+				"supportPXP": false
+			},
+			"color_depth": [
+				16,
+				24
+			],
+			"Optimizations": "Balance",
+			"display_panels": [
+				{
+					"width": 480,
+					"height": 272,
+					"display_panel_name": "Simulator",
+					"display_part_number": "Simulator"
+				},
+				{
+					"width": 392,
+					"height": 392,
+					"display_panel_name": "Simulator",
+					"display_part_number": "Simulator"
+				},
+				{
+					"width": 320,
+					"height": 240,
+					"display_panel_name": "Simulator",
+					"display_part_number": "Simulator"
+				},
+				{
+					"width": 640,
+					"height": 480,
+					"display_panel_name": "Simulator",
+					"display_part_number": "Simulator"
+				},
+				{
+					"width": 720,
+					"height": 1280,
+					"display_panel_name": "Simulator",
+					"display_part_number": "Simulator"
+				}
+			],
+			"mcuxpresso_config": {
+				"CMAKE_BUILD_TYPE": "null"
+			}
+		}
+	},
+	"demoTemplateSettings": {
+		"id": 31,
+		"name": "SliderProgress",
+		"version": "v1.0.0",
+		"description": "An example of using slider to adjust transparency of a picture, it displays the transparency value on label.",
+		"lvgl_version_major": 8,
+		"lvgl_version_minor": 2,
+		"lvgl_version_micro": 0,
+		"author": "NXP",
+		"file": "1.4.0/application/SliderProgress/v8/SliderProgress_v1.0.0.zip",
+		"checksum": "d685ffd090b7bd3b19882c8e61adc504",
+		"images": [
+			"D:\\NXP\\GUI-Guider-1.4.1-GA\\environment\\template\\application\\v8\\SliderProgress\\images\\preview.png"
+		],
+		"support_board": [
+			"Simulator",
+			"MIMXRT1052xxxxB",
+			"MIMXRT1042xxxxB",
+			"MIMXRT1062xxxxA",
+			"MIMXRT1064xxxxA",
+			"LPC54S018",
+			"LPC54S018J4M",
+			"LPC54628",
+			"LPC55S69",
+			"LPC55S28",
+			"MIMXRT595S",
+			"MIMXRT1166xxxxx",
+			"MIMXRT1176xxxxx",
+			"MIMXRT1011xxxxx",
+			"MIMXRT1021xxxxx",
+			"MIMXRT1024xxxxx",
+			"MIMXRT1015xxxxx"
+		],
+		"originType": "builtIn"
+	},
+	"BuildStatus": {
+		"enable_pxp": false,
+		"supportPXP": false
+	},
+	"version": "1.4.1-GA",
+	"lvConf": {
+		"LV_HOR_RES_MAX": "(1280)",
+		"LV_VER_RES_MAX": "(800)",
+		"LV_COLOR_DEPTH": 16,
+		"LV_COLOR_16_SWAP": false,
+		"LV_MEM_CUSTOM": false,
+		"LV_MEM_SIZE": "320",
+		"LV_MEM_ADR": false,
+		"LV_MEM_AUTO_DEFRAG": true,
+		"LV_MEM_CUSTOM_INCLUDE": "<stdlib.h>",
+		"LV_MEM_CUSTOM_ALLOC": "malloc",
+		"LV_MEM_CUSTOM_FREE": "free",
+		"LV_USE_GPU": true,
+		"LV_USE_GPU_NXP_PXP": "~~",
+		"LV_USE_GPU_NXP_PXP_AUTO_INIT": "~~",
+		"LV_USE_GPU_NXP_VG_LITE": "~~",
+		"LV_ATTRIBUTE_MEM_ALIGN_SIZE": "~~",
+		"LV_ATTRIBUTE_MEM_ALIGN": "~~",
+		"LV_DISP_DEF_REFR_PERIOD": "30",
+		"LV_USE_PERF_MONITOR": false
+	},
+	"ImportFonts": {
+		"simsun": "font\\simsun.woff",
+		"montserratMedium": "font\\Montserrat-medium.ttf",
+		"arial": "font\\ARIAL.TTF",
+		"Abel_regular": "font\\abel-regular.ttf",
+		"Acme_Regular": "font\\Acme-Regular.ttf",
+		"Adventpro_regular": "font\\adventpro-regular.ttf",
+		"AguafinaScript_Regular": "font\\AguafinaScript-Regular.ttf",
+		"Alatsi_Regular": "font\\Alatsi-Regular.ttf",
+		"AlexBrush_Regular": "font\\AlexBrush-Regular.ttf",
+		"AmaticSC_Regular": "font\\AmaticSC-Regular.ttf",
+		"Amiko_Regular": "font\\Amiko-Regular.ttf",
+		"Antonio_Regular": "font\\Antonio-Regular.ttf",
+		"ArchitectsDaughter": "font\\ArchitectsDaughter.ttf"
+	},
+	"FrontJson": [
+		{
+			"name": "screen",
+			"id": "screen",
+			"version": 4,
+			"width": 1280,
+			"height": 800,
+			"scrollbar_mode": "OFF",
+			"list": [
+				{
+					"name": "analog_clock_1",
+					"type": "analog_clock",
+					"left": 179,
+					"top": 557,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 1000,
+					"width": 200,
+					"height": 200,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"label_gap": 10,
+					"hour_tick_width": 2,
+					"hour_tick_len": 10,
+					"hour_tick_color": "#555555",
+					"min_tick_width": 2,
+					"min_tick_len": 5,
+					"min_tick_color": "#333333",
+					"needle": [
+						{
+							"tab_name": "hour",
+							"needle_type": "line",
+							"value": 3,
+							"needle_width": 2,
+							"needle_r_mod": -40,
+							"needle_color": "#00ff00",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2
+						},
+						{
+							"tab_name": "minute",
+							"needle_type": "line",
+							"value": 20,
+							"needle_width": 2,
+							"needle_r_mod": -30,
+							"needle_color": "#E1FF00",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2
+						},
+						{
+							"tab_name": "second",
+							"needle_type": "line",
+							"value": 50,
+							"needle_width": 2,
+							"needle_r_mod": -10,
+							"needle_color": "#6600FF",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2
+						}
+					],
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"object": "main",
+							"disable": false,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_grad_dir": "LV_GRAD_DIR_NONE",
+							"bg_opa": 255,
+							"border_width": 0,
+							"border_color": "#2195f6",
+							"border_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_TICKS",
+							"state": "LV_STATE_DEFAULT",
+							"desc": "digit",
+							"object": "main",
+							"disable": false,
+							"font": 12,
+							"font_family": "simsun",
+							"text_color": "#ff0000"
+						}
+					],
+					"id": "i6uya79p"
+				},
+				{
+					"name": "label4",
+					"id": "1vlpapg2",
+					"type": "label",
+					"left": 146,
+					"top": 126,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 266,
+					"height": 235,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"text": "50",
+					"long_mode": "LV_LABEL_LONG_WRAP",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 128,
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"font_family": "arial",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 32,
+							"font_family": "arial",
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						}
+					]
+				},
+				{
+					"name": "label3",
+					"id": "28ibzbla",
+					"type": "label",
+					"left": 112,
+					"top": 500,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 346,
+					"height": 147,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"text": "Please slide",
+					"long_mode": "LV_LABEL_LONG_WRAP",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 32,
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"font_family": "arial",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#ffffff",
+							"bg_grad_color": "#ffffff",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"radius": 0,
+							"text_color": "#000000",
+							"font": 32,
+							"font_family": "arial",
+							"text_align": "LV_TEXT_ALIGN_CENTER",
+							"letter_space": 2,
+							"line_space": 0,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 0,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"padding_top": 0,
+							"padding_right": 0,
+							"padding_bottom": 0,
+							"padding_left": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						}
+					]
+				},
+				{
+					"name": "slider0",
+					"id": "o744l3lv",
+					"type": "slider",
+					"left": 77,
+					"top": 423,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 426,
+					"height": 23,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"range_s": 0,
+					"range_e": 100,
+					"starting_value": 50,
+					"show_slider_value": false,
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#c4cfcf",
+							"bg_grad_color": "#c1cccd",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 50,
+							"outline_width": 0,
+							"outline_color": "#2195f6",
+							"outline_opa": 0,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"outline_color": "#2195f6",
+							"outline_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"outline_color": "#2195f6",
+							"outline_opa": 255,
+							"shadow_color": "#2195f6",
+							"shadow_opa": 255,
+							"shadow_width": 0,
+							"shadow_spread": 0,
+							"shadow_ofs_x": 0,
+							"shadow_ofs_y": 0
+						},
+						{
+							"part": "LV_PART_INDICATOR",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"bg_opa": 255,
+							"radius": 50
+						},
+						{
+							"part": "LV_PART_INDICATOR",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#d4d7d9",
+							"bg_grad_color": "#d4d7d9",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"bg_opa": 255,
+							"radius": 50
+						},
+						{
+							"part": "LV_PART_INDICATOR",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"bg_opa": 255,
+							"radius": 50
+						},
+						{
+							"part": "LV_PART_KNOB",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"bg_color": "#02a2b1",
+							"bg_grad_color": "#02a2b1",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 50
+						},
+						{
+							"part": "LV_PART_KNOB",
+							"state": "LV_STATE_FOCUSED",
+							"disable": true,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 50
+						},
+						{
+							"part": "LV_PART_KNOB",
+							"state": "LV_STATE_DISABLED",
+							"disable": true,
+							"bg_color": "#2195f6",
+							"bg_grad_color": "#2195f6",
+							"bg_opa": 255,
+							"bg_grad_dir": "LV_GRAD_DIR_VER",
+							"radius": 50
+						}
+					],
+					"event": [
+						{
+							"trigger": "value_changed",
+							"dst": "lwwyui1r",
+							"action": {
+								"bg_color": {
+									"ische": false,
+									"value": "#000000"
+								},
+								"grad_color": {
+									"ische": false,
+									"value": "#000000"
+								},
+								"bg_opa": {
+									"ische": false,
+									"value": 255
+								},
+								"width": {
+									"ische": false,
+									"value": 50
+								},
+								"height": {
+									"ische": false,
+									"value": 50
+								},
+								"set_text": {
+									"ische": false,
+									"value": "default",
+									"font": 12,
+									"font_family": "simsun"
+								},
+								"position": {
+									"ische": false,
+									"value_x": 0,
+									"value_y": 0
+								},
+								"hidden": {
+									"ische": false
+								},
+								"customer_code": {
+									"ische": true,
+									"code_type": "excute_c_code",
+									"include": "",
+									"code": "static char buf[4];\nint slider_value = lv_slider_get_value(guider_ui.screen_slider0);\nlv_obj_set_style_img_opa(guider_ui.screen_img2, slider_value * 2.5, LV_STATE_DEFAULT);\nsnprintf(buf, 4, \"%u\" , slider_value);\nlv_label_set_text(guider_ui.screen_label4, buf);",
+									"src": "slider0"
+								},
+								"move": {
+									"ische": false,
+									"value_x": 0,
+									"value_y": 0,
+									"duration": 1000,
+									"path_type": "linear"
+								},
+								"load_screen": {
+									"ische": false,
+									"duration": 1000,
+									"delay": 1000,
+									"anim_type": "LV_SCR_LOAD_ANIM_NONE",
+									"is_clean": true
+								}
+							}
+						},
+						{
+							"trigger": "value_changed",
+							"dst": "lwwyui1r",
+							"action": {
+								"bg_color": {
+									"ische": false,
+									"value": "#000000"
+								},
+								"grad_color": {
+									"ische": false,
+									"value": "#000000"
+								},
+								"bg_opa": {
+									"ische": false,
+									"value": 255
+								},
+								"width": {
+									"ische": false,
+									"value": 50
+								},
+								"height": {
+									"ische": false,
+									"value": 50
+								},
+								"set_text": {
+									"ische": false,
+									"value": "default",
+									"font": 12,
+									"font_family": "simsun"
+								},
+								"position": {
+									"ische": false,
+									"value_x": 0,
+									"value_y": 0
+								},
+								"hidden": {
+									"ische": false
+								},
+								"customer_code": {
+									"ische": true,
+									"code_type": "excute_python_code",
+									"include": "",
+									"code": "slider_value = int(screen_slider0.get_value())\nscreen_img2.set_style_img_opa(int(slider_value * 2.5),lv.PART.MAIN|lv.STATE.DEFAULT)\nscreen_label4.set_text(str(slider_value))",
+									"src": "slider0"
+								},
+								"move": {
+									"ische": false,
+									"value_x": 0,
+									"value_y": 0,
+									"duration": 1000,
+									"path_type": "linear"
+								},
+								"load_screen": {
+									"ische": false,
+									"duration": 1000,
+									"delay": 1000,
+									"anim_type": "LV_SCR_LOAD_ANIM_NONE",
+									"is_clean": true
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "img2",
+					"id": "lwwyui1r",
+					"type": "img",
+					"left": 570,
+					"top": 100,
+					"is_move_animation": false,
+					"desX": 0,
+					"desY": 0,
+					"path_type": "linear",
+					"duration": 100,
+					"width": 597,
+					"height": 511,
+					"default_style": false,
+					"scrollbar_mode": "OFF",
+					"use_fs": false,
+					"sd_path": "S:",
+					"img_path": "scan_example.png",
+					"rotate": 0,
+					"x": 0,
+					"y": 0,
+					"color_format": "true-color-alpha",
+					"style": [
+						{
+							"part": "LV_PART_MAIN",
+							"state": "LV_STATE_DEFAULT",
+							"disable": false,
+							"image_recolor": "#ffffff",
+							"image_recolor_opa": 0,
+							"image_opa": 125
+						}
+					]
+				}
+			],
+			"style": [
+				{
+					"part": "LV_PART_MAIN",
+					"state": "LV_STATE_DEFAULT",
+					"disable": false,
+					"bg_color": "#ffffff",
+					"bg_opa": 0
+				}
+			],
+			"part": "LV_PART_MAIN",
+			"state": "LV_STATE_DEFAULT",
+			"disable": false,
+			"bg_color": "#ffffff",
+			"bg_opa": 0
+		}
+	],
+	"Application": {
+		"name": "testingJson",
+		"size": {
+			"width": "1280",
+			"height": "800"
+		},
+		"version": "test_v1",
+		"default_scr": "screen",
+		"theme": "LV_THEME_MATERIAL_FLAG_LIGHT",
+		"screen": [
+			{
+				"name": "screen",
+				"type": "scr",
+				"style": [
+					{
+						"part": "LV_PART_MAIN",
+						"state": "LV_STATE_DEFAULT",
+						"disable": false,
+						"bg_color": "#ffffff",
+						"bg_opa": 0
+					}
+				],
+				"widgets": [
+					{
+						"name": "screen_img2",
+						"id": "lwwyui1r",
+						"type": "img",
+						"scrollbar_mode": "OFF",
+						"pos": [
+							570,
+							100
+						],
+						"size": [
+							597,
+							511
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"img_path": "G:\\LVGL\\demo\\demo\\import\\scan_example.png",
+						"color_format": "true-color-alpha",
+						"rotate": 0,
+						"pivot": "0,0",
+						"use_fs": false,
+						"img_sd_path": "S:/scan_example.png",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"image_recolor": "#ffffff",
+								"image_recolor_opa": 0,
+								"image_opa": 125
+							}
+						]
+					},
+					{
+						"name": "screen_slider0",
+						"id": "o744l3lv",
+						"type": "slider",
+						"scrollbar_mode": "OFF",
+						"pos": [
+							77,
+							423
+						],
+						"size": [
+							426,
+							23
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#c4cfcf",
+								"bg_grad_color": "#c1cccd",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 50,
+								"outline_width": 0,
+								"outline_color": "#2195f6",
+								"outline_opa": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"outline_color": "#2195f6",
+								"outline_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"outline_color": "#2195f6",
+								"outline_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_INDICATOR",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"bg_opa": 255,
+								"radius": 50
+							},
+							{
+								"part": "LV_PART_INDICATOR",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#d4d7d9",
+								"bg_grad_color": "#d4d7d9",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"bg_opa": 255,
+								"radius": 50
+							},
+							{
+								"part": "LV_PART_INDICATOR",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"bg_opa": 255,
+								"radius": 50
+							},
+							{
+								"part": "LV_PART_KNOB",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"bg_color": "#02a2b1",
+								"bg_grad_color": "#02a2b1",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 50
+							},
+							{
+								"part": "LV_PART_KNOB",
+								"state": "LV_STATE_FOCUSED",
+								"disable": true,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 50
+							},
+							{
+								"part": "LV_PART_KNOB",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 255,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"radius": 50
+							}
+						],
+						"range": [
+							0,
+							100
+						],
+						"show_slider_value": false,
+						"slider_value": [
+							{
+								"starting_value": 50
+							}
+						]
+					},
+					{
+						"name": "screen_label3",
+						"id": "28ibzbla",
+						"type": "label",
+						"scrollbar_mode": "OFF",
+						"pos": [
+							112,
+							500
+						],
+						"size": [
+							346,
+							147
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "Please slide",
+						"long_mode": "LV_LABEL_LONG_WRAP",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 32,
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"font_family": "arial",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 32,
+								"font_family": "arial",
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							}
+						]
+					},
+					{
+						"name": "screen_label4",
+						"id": "1vlpapg2",
+						"type": "label",
+						"scrollbar_mode": "OFF",
+						"pos": [
+							146,
+							126
+						],
+						"size": [
+							266,
+							235
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 100
+						},
+						"default_style": false,
+						"text": "50",
+						"long_mode": "LV_LABEL_LONG_WRAP",
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"disable": false,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 128,
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"font_family": "arial",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DISABLED",
+								"disable": true,
+								"radius": 0,
+								"text_color": "#000000",
+								"font": 32,
+								"font_family": "arial",
+								"text_align": "LV_TEXT_ALIGN_CENTER",
+								"letter_space": 2,
+								"line_space": 0,
+								"bg_color": "#2195f6",
+								"bg_grad_color": "#2195f6",
+								"bg_opa": 0,
+								"bg_grad_dir": "LV_GRAD_DIR_VER",
+								"padding_top": 0,
+								"padding_right": 0,
+								"padding_bottom": 0,
+								"padding_left": 0,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							}
+						]
+					},
+					{
+						"name": "screen_analog_clock_1",
+						"id": "i6uya79p",
+						"type": "analog_clock",
+						"scrollbar_mode": "OFF",
+						"pos": [
+							179,
+							557
+						],
+						"size": [
+							200,
+							200
+						],
+						"is_move_animation": false,
+						"path_type": "linear",
+						"move_animation": {
+							"des_pos": [
+								0,
+								0
+							],
+							"duration": 1000
+						},
+						"default_style": false,
+						"label_gap": 10,
+						"hour_tick_width": 2,
+						"hour_tick_len": 10,
+						"hour_tick_color": "#555555",
+						"min_tick_width": 2,
+						"min_tick_len": 5,
+						"min_tick_color": "#333333",
+						"hour_needle": {
+							"tab_name": "hour",
+							"needle_type": "line",
+							"value": 3,
+							"needle_width": 2,
+							"needle_r_mod": -40,
+							"needle_color": "#00ff00",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2,
+							"type": "line",
+							"name": "hour"
+						},
+						"min_needle": {
+							"tab_name": "minute",
+							"needle_type": "line",
+							"value": 20,
+							"needle_width": 2,
+							"needle_r_mod": -30,
+							"needle_color": "#E1FF00",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2,
+							"type": "line",
+							"name": "minute"
+						},
+						"sec_needle": {
+							"tab_name": "second",
+							"needle_type": "line",
+							"value": 50,
+							"needle_width": 2,
+							"needle_r_mod": -10,
+							"needle_color": "#6600FF",
+							"needle_line_num": 0,
+							"img_path": "",
+							"img_width": 70,
+							"img_height": 5,
+							"pivot_x": 0,
+							"pivot_y": 2,
+							"type": "line",
+							"name": "second"
+						},
+						"style": [
+							{
+								"part": "LV_PART_MAIN",
+								"state": "LV_STATE_DEFAULT",
+								"object": "main",
+								"disable": false,
+								"bg_color": "#ffffff",
+								"bg_grad_color": "#ffffff",
+								"bg_grad_dir": "LV_GRAD_DIR_NONE",
+								"bg_opa": 255,
+								"border_width": 0,
+								"border_color": "#2195f6",
+								"border_opa": 255,
+								"shadow_color": "#2195f6",
+								"shadow_opa": 255,
+								"shadow_width": 0,
+								"shadow_spread": 0,
+								"shadow_ofs_x": 0,
+								"shadow_ofs_y": 0
+							},
+							{
+								"part": "LV_PART_TICKS",
+								"state": "LV_STATE_DEFAULT",
+								"desc": "digit",
+								"object": "main",
+								"disable": false,
+								"font": 12,
+								"font_family": "simsun",
+								"text_color": "#ff0000"
+							}
+						]
+					}
+				]
+			}
+		],
+		"event": [
+			{
+				"src": "screen_slider0",
+				"trigger": "value_changed",
+				"dst": "screen_img2",
+				"action": "customer_code",
+				"code_type": "excute_c_code",
+				"include": "",
+				"code": "static char buf[4];\nint slider_value = lv_slider_get_value(guider_ui.screen_slider0);\nlv_obj_set_style_img_opa(guider_ui.screen_img2, slider_value * 2.5, LV_STATE_DEFAULT);\nsnprintf(buf, 4, \"%u\" , slider_value);\nlv_label_set_text(guider_ui.screen_label4, buf);"
+			},
+			{
+				"src": "screen_slider0",
+				"trigger": "value_changed",
+				"dst": "screen_img2",
+				"action": "customer_code",
+				"code_type": "excute_python_code",
+				"include": "",
+				"code": "slider_value = int(screen_slider0.get_value())\nscreen_img2.set_style_img_opa(int(slider_value * 2.5),lv.PART.MAIN|lv.STATE.DEFAULT)\nscreen_label4.set_text(str(slider_value))"
+			}
+		]
+	}
+}
